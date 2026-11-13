@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIR GROUP HOLDING | Innover • Construire • Réussir</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        mirGold: '#D4AF37',
+                        mirDark: '#0A0F1D',
+                        mirBlue: '#1E3A8A',
+                        mirLight: '#F8FAFC'
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="bg-mirDark text-gray-100 font-sans antialiased selection:bg-mirGold selection:text-mirDark">
+
+    <!-- TOP BAR -->
+    <div class="bg-gradient-to-r from-mirBlue via-blue-900 to-mirDark text-gray-300 text-xs py-2 px-4 border-b border-mirGold/20">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+            <div class="flex items-center gap-4">
+                <span><i class="fas fa-map-marker-alt text-mirGold mr-1"></i> Abidjan Cocody 2 Plateaux, 20m de la Pharmacie des Grâces</span>
+                <span class="hidden md:inline"><i class="fas fa-file-contract text-mirGold mr-1"></i> RCCM: CI-ABJ-03-2026-B12-07394</span>
+            </div>
+            <div class="flex items-center gap-4">
+                <a href="tel:+2250759058025" class="hover:text-mirGold transition"><i class="fas fa-phone-alt text-mirGold mr-1"></i> +225 07 59 05 80 25</a>
+                <a href="mailto:mirgroup.holding@gmail.com" class="hover:text-mirGold transition"><i class="fas fa-envelope text-mirGold mr-1"></i> mirgroup.holding@gmail.com</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- NAVIGATION -->
+    <header class="sticky top-0 z-50 bg-mirDark/95 backdrop-blur-md border-b border-white/10 shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <!-- Logo -->
+            <a href="#" class="flex items-center gap-3">
+                <div class="w-12 h-12 rounded-full bg-gradient-to-tr from-mirGold via-yellow-200 to-amber-600 flex items-center justify-center shadow-md p-0.5">
+                    <div class="w-full h-full bg-mirDark rounded-full flex items-center justify-center">
+                        <span class="text-mirGold font-extrabold text-xl">M</span>
+                    </div>
+                </div>
+                <div>
+                    <span class="text-xl font-extrabold tracking-wider bg-gradient-to-r from-white via-gray-200 to-mirGold bg-clip-text text-transparent">MIR GROUP HOLDING</span>
+                    <span class="block text-[10px] tracking-widest text-mirGold uppercase font-semibold">Innover • Construire • Réussir</span>
+                </div>
+            </a>
+
+            <!-- Desktop Nav -->
+            <nav class="hidden lg:flex items-center gap-8 font-medium text-sm">
+                <a href="#accueil" class="hover:text-mirGold transition">Accueil</a>
+                <a href="#poles" class="hover:text-mirGold transition">Nos 6 Pôles</a>
+                <a href="#expertise" class="hover:text-mirGold transition">Expertise</a>
+                <a href="#gouvernance" class="hover:text-mirGold transition">Direction</a>
+                <a href="#contact" class="px-5 py-2.5 rounded-full bg-gradient-to-r from-mirGold to-amber-600 text-mirDark font-bold hover:opacity-90 transition shadow-lg shadow-mirGold/20">Contactez-nous</a>
+            </nav>
+
+            <!-- Mobile Menu Button -->
+            <button id="menu-btn" class="lg:hidden text-gray-300 hover:text-mirGold text-2xl focus:outline-none">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Nav Menu -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-mirDark/98 border-b border-white/10 px-6 py-6 space-y-4">
+            <a href="#accueil" class="block text-lg hover:text-mirGold transition">Accueil</a>
+            <a href="#poles" class="block text-lg hover:text-mirGold transition">Nos 6 Pôles</a>
+            <a href="#expertise" class="block text-lg hover:text-mirGold transition">Expertise</a>
+            <a href="#gouvernance" class="block text-lg hover:text-mirGold transition">Direction</a>
+            <a href="#contact" class="block text-center px-5 py-3 rounded-full bg-mirGold text-mirDark font-bold">Contactez-nous</a>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="accueil" class="relative min-h-[90vh] flex items-center justify-center bg-gradient-to-b from-blue-950 via-mirDark to-mirDark overflow-hidden py-20 px-4">
+        <!-- Background decorative glow -->
+        <div class="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-mirGold via-transparent to-transparent blur-3xl pointer-events-none"></div>
+        
+        <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center relative z-10">
+            <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-mirGold/10 border border-mirGold/30 text-mirGold text-xs font-semibold uppercase tracking-wider">
+                    <i class="fas fa-star text-mirGold">></i> SARL au capital de 10 000 000 F CFA
+                </div>
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight">
+                    Ensemble, bâtissons un <span class="bg-gradient-to-r from-mirGold via-yellow-200 to-amber-500 bg-clip-text text-transparent">avenir plus grand !</span>
+                </h1>
+                <p class="text-lg text-gray-300 max-w-2xl mx-auto lg:mx-0">
+                    Un héritage fort, une vision de l'avenir. MIR GROUP HOLDING orchestre l'excellence multisectorielle à travers 6 pôles stratégiques pour propulser l'économie en Côte d'Ivoire et en Afrique.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-4">
+                    <a href="#poles" class="px-8 py-4 rounded-xl bg-gradient-to-r from-mirGold to-amber-600 text-mirDark font-bold hover:opacity-90 transition shadow-xl shadow-mirGold/20 flex items-center justify-center gap-2">
+                        Découvrir nos pôles <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="px-8 py-4 rounded-xl border border-white/20 bg-white/5 hover:bg-white/10 font-semibold transition flex items-center justify-center gap-2">
+                        Prendre rendez-vous
+                    </a>
+                </div>
+            </div>
+
+            <!-- Hero Visual Banner -->
+            <div class="lg:col-span-5 relative">
+                <div class="relative rounded-2xl overflow-hidden shadow-2xl border border-mirGold/30 group">
+                    <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80" alt="MIR Group Holding Siège" class="w-full h-[400px] object-cover group-hover:scale-105 transition duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-mirDark via-mirDark/40 to-transparent"></div>
+                    <div class="absolute bottom-6 left-6 right-6 p-6 bg-mirDark/80 backdrop-blur-md rounded-xl border border-white/10">
+                        <p class="text-mirGold font-bold text-sm tracking-widest uppercase">Siège Social</p>
+                        <p class="text-gray-200 text-sm mt-1">Abidjan Cocody 2 Plateaux, 20m de la Pharmacie des Grâces</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- STATS / HIGHLIGHTS -->
+    <section class="border-y border-white/10 bg-blue-950/40 py-10">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+            <div class="p-4 border-r last:border-0 border-white/10">
+                <p class="text-3xl lg:text-4xl font-extrabold text-mirGold">6</p>
+                <p class="text-sm text-gray-400 mt-1">Pôles d'Activités</p>
+            </div>
+            <div class="p-4 border-r last:border-0 border-white/10">
+                <p class="text-3xl lg:text-4xl font-extrabold text-white">99 Ans</p>
+                <p class="text-sm text-gray-400 mt-1">Durée Sociale</p>
+            </div>
+            <div class="p-4 border-r last:border-0 border-white/10">
+                <p class="text-3xl lg:text-4xl font-extrabold text-mirGold">10M F CFA</p>
+                <p class="text-sm text-gray-400 mt-1">Capital Social</p>
+            </div>
+            <div class="p-4">
+                <p class="text-3xl lg:text-4xl font-extrabold text-white">100%</p>
+                <p class="text-sm text-gray-400 mt-1">Engagement Stratégique</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- POLES D'ACTIVITES -->
+    <section id="poles" class="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+            <h2 class="text-mirGold font-bold uppercase tracking-widest text-sm">Nos Domaines d'Excellence</h2>
+            <p class="text-3xl sm:text-4xl font-extrabold tracking-tight">Découvrez nos 6 pôles stratégiques</p>
+            <p class="text-gray-400">Une synergie d'expertises pensée pour dynamiser l'investissement, la technologie et l'industrie en Afrique.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Pôle 1 -->
+            <div class="bg-blue-950/30 rounded-2xl p-8 border border-white/10 hover:border-mirGold/50 transition duration-300 group flex flex-col justify-between">
+                <div>
+                    <div class="w-14 h-14 rounded-xl bg-mirGold/10 flex items-center justify-center text-mirGold text-2xl mb-6 group-hover:bg-mirGold group-hover:text-mirDark transition">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-white">MIR TECHNOLOGIES</h3>
+                    <p class="text-gray-400 text-sm mb-6">Le digital au service de votre performance à travers des solutions informatiques avancées et l'innovation technologique.</p>
+                    <ul class="space-y-2 text-sm text-gray-300 mb-6">
+                        <li><i class="fas fa-check text-mirGold mr-2"></i> Services informatiques</li>
+                        <li><i class="fas fa-check text-mirGold mr-2"></i> Développement de solutions</li>
+                        <li><i class="fas fa-check text-mirGold mr-2"></i> Innovation technologique</li>
+                    </ul>
+                </div>
+                <button onclick="openModal('MIR TECHNOLOGIES')" class="w-full py-3 rounded-xl bg-white/5 hover:bg-mirGold hover:text-mirDark font-semibold text-sm transition text-center">En savoir plus</button>
+            </div>
+
+            <!-- Pôle 2 -->
+            <div class="bg-blue-950/30 rounded-2xl p-8 border border-white/10 hover:border-mirGold/50 transition duration-300 group flex flex-col justify-between">
+                <div>
+                    <div class="w-14 h-14 rounded-xl bg-mirGold/10 flex items-center justify-center text-mirGold text-2xl mb-6 group-hover:bg-mirGold group-hover:text-mirDark transition">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-white">MIR NUMÉRIQUE</h3>
+                    <p class="text-gray-400 text-sm mb-6">Une transformation digitale réussie, stratégie numérique de pointe et animation des sociétés du groupe.</p>
+                    <ul class="space-y-2 text-sm text-gray-300 mb-6">
+                        <li><i class="fas fa-check text-mirGold mr-2"></i> Stratégie digitale</li>
+                        <li><i class="fas fa-check text-mirGold mr-2"></i> Animation de sociétés de groupe</li>
+                        <li><i class="fas fa-check text-mirGold mr-2"></i> Transformation numérique</li>
+                    </ul>
+                </div>
+                <button onclick="openModal('MIR NUMÉRIQUE')" class="w-full py-3 rounded-xl bg-white/5 hover:bg-mirGold hover:text-mirDark font-semibold text-sm transition text-center">En savoir plus</button>
+            </div>
+
+            <!-- Pôle 3 -->
+            <div class="bg-blue-950/30 rounded-2xl p-8 border border-white/10 hover:border-mirGold/50 transition duration-300 group flex flex-col justify-between">
+                <div>
+                    <div class="w-14 h-14 rounded-xl bg-mirGold/10 flex items-center justify-center text-mirGold text-2xl mb-6 group-hover:bg-mirGold group-hover:text-mirDark transition">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-white">MIR FINANCE</h3>
+                    <p class="text-gray-400 text-sm mb-6">Des solutions financières sur-mesure pour vos projets, prise de participation et gestion de portefeuille d'investissements.</p>
+                    <ul class="space-y-2 text-sm text-gray-300 mb-6">
+                        <li><i class="fas fa-check text-mirGold mr-2"></i> Prise de participation</li>
+                        <li><i class="fas fa-check text-mirGold mr-2"></i> Gestion de portefeuille</li>
+                        <li><i class="fas fa-check text-mirGold mr-2"></i> Investissements stratégiques</li>
+                    </ul>
+                </div>
+                <button onclick="openModal('MIR FINANCE')" class="w-full py-3 rounded-xl bg-white/5 hover:bg-mirGold hover:text-mirDark font-semibold text-sm transition text-center">En savoir plus</button>
+            </div>
+
+            <!-- Pôle 4 -->
+            <div class="bg-blue-950/30 rounded-2xl p-8 border border-white/10 hover:border-mirGold/50 transition duration-300 group flex flex-col justify-between">
+                <div>
+                    <div class="w-14 h-14 rounded-xl bg-mirGold/10 flex items-center justify-center text-mirGold text-2xl mb-6 group-hover:bg-mirGold group-hover:text-mirDark transition">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-white">MIR IMMOBILIER</h3>
+                    <p class="text-gray-400 text-sm mb-6">Bâtir aujourd'hui, valoriser demain. Investissement immobilier, location, vente de biens et prise en location-gérance.</p>
+                    <ul class="space-y-2 text-sm text-gray-300 mb-6">
+                        <li><i class="fas fa-check text-mirGold mr-2"></i> Investissement immobilier</li>
+                        <li><i class="fas fa-check text-mirGold mr-2"></i> Location et vente de biens</li>
+                        <li><i class="fas fa-check text-mirGold mr-2"></i> Location-gérance</li>
+                    </ul>
+                </div>
+                <button onclick="openModal('MIR IMMOBILIER')" class="w-full py-3 rounded-xl bg-white/5 hover:bg-mirGold hover:text-mirDark font-semibold text-sm transition text-center">En savoir plus</button>
+            </div>
+
+            <!-- Pôle 5 -->
+            <div class="bg-blue-950/30 rounded-2xl p-8 border border-white/10 hover:border-mirGold/50 transition duration-300 group flex flex-col justify-between">
+                <div>
+                    <div class="w-14 h-14 rounded-xl bg-mirGold/10 flex items-center justify-center text-mirGold text-2xl mb-6 group-hover:bg-mirGold group-hover:text-mirDark transition">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-white">MIR ÉNERGIE</h3>
+                    <p class="text-gray-400 text-sm mb-6">Une énergie durable pour un avenir meilleur, investissement dans les projets industriels et conseil aux entreprises.</p>
+                    <ul class="space-y-2 text-sm text-gray-300 mb-6">
+                        <li><i class="fas fa-check text-mirGold mr-2"></i> Projets industriels</li>
+                        <li><i class="fas fa-check text-mirGold mr-2"></i> Conseil aux entreprises</li>
+                        <li><i class="fas fa-check text-mirGold mr-2"></i> Énergies durables</li>
+                    </ul>
+                </div>
+                <button onclick="openModal('MIR ÉNERGIE')" class="w-full py-3 rounded-xl bg-white/5 hover:bg-mirGold hover:text-mirDark font-semibold text-sm transition text-center">En savoir plus</button>
+            </div>
+
+            <!-- Pôle 6 -->
+            <div class="bg-blue-950/30 rounded-2xl p-8 border border-white/10 hover:border-mirGold/50 transition duration-300 group flex flex-col justify-between">
+                <div>
+                    <div class="w-14 h-14 rounded-xl bg-mirGold/10 flex items-center justify-center text-mirGold text-2xl mb-6 group-hover:bg-mirGold group-hover:text-mirDark transition">
+                        <i class="fas fa-users-cog"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-white">MIR GROUPE</h3>
+                    <p class="text-gray-400 text-sm mb-6">Un pôle solide pour aller plus loin, accompagnement d'entrepreneurs et soutien aux projets innovants.</p>
+                    <ul class="space-y-2 text-sm text-gray-300 mb-6">
+                        <li><i class="fas fa-check text-mirGold mr-2"></i> Accompagnement d'entrepreneurs</li>
+                        <li><i class="fas fa-check text-mirGold mr-2"></i> Conseil stratégique</li>
+                        <li><i class="fas fa-check text-mirGold mr-2"></i> Soutien aux projets innovants</li>
+                    </ul>
+                </div>
+                <button onclick="openModal('MIR GROUPE')" class="w-full py-3 rounded-xl bg-white/5 hover:bg-mirGold hover:text-mirDark font-semibold text-sm transition text-center">En savoir plus</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- DIRECTION & GOUVERNANCE -->
+    <section id="gouvernance" class="py-24 bg-gradient-to-b from-transparent via-blue-950/20 to-transparent">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                <div class="lg:col-span-5">
+                    <div class="relative rounded-2xl overflow-hidden border-2 border-mirGold shadow-2xl">
+                        <!-- VOTRE PHOTO OFFICIELLE EN TANT QUE DIRECTEUR GENERAL -->
+                        <img src="5e0d0da1-73ea-4bf7-8016-38ab69c68f21.jpg" alt="ASSIELOU N'DAH ASSANDE GUY FERNAND - Directeur Général" class="w-full h-[450px] object-cover object-top">
+                        <div class="absolute inset-0 bg-gradient-to-t from-mirDark via-transparent to-transparent"></div>
+                        <div class="absolute bottom-6 left-6 right-6">
+                            <p class="text-mirGold font-bold text-lg">ASSIELOU N'DAH ASSANDE GUY FERNAND</p>
+                            <p class="text-gray-300 text-sm">Directeur Général - MIR GROUP HOLDING</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:col-span-7 space-y-6">
+                    <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-mirGold/10 border border-mirGold/30 text-mirGold text-xs font-semibold uppercase">
+                        Direction Générale & Leadership
+                    </div>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold">Une vision stratégique portée par l'excellence</h2>
+                    <p class="text-gray-300 leading-relaxed">
+                        Inscrite officiellement sous le RCCM <span class="text-mirGold font-semibold">CI-ABJ-03-2026-B12-07394</span>, MIR GROUP HOLDING est pilotée par une équipe dirigeante chevronnée engagée dans la transformation économique, la création de filiales dynamiques et l'accompagnement des entrepreneurs audacieux en Côte d'Ivoire et à l'international.
+                    </p>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4">
+                        <div class="p-4 rounded-xl bg-white/5 border border-white/10">
+                            <p class="text-mirGold font-bold text-lg">10 000 000 F CFA</p>
+                            <p class="text-sm text-gray-400">Capital Social libéré en numéraire (AFG Bank)</p>
+                        </div>
+                        <div class="p-4 rounded-xl bg-white/5 border border-white/10">
+                            <p class="text-mirGold font-bold text-lg">Abidjan Cocody</p>
+                            <p class="text-sm text-gray-400">Siège social aux 2 Plateaux</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT & RENDEZ-VOUS -->
+    <section id="contact" class="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="bg-gradient-to-br from-blue-950 via-mirDark to-blue-950 rounded-3xl p-8 sm:p-12 border border-mirGold/30 shadow-2xl grid grid-cols-1 lg:grid-cols-12 gap-12">
+            <div class="lg:col-span-5 space-y-6">
+                <h2 class="text-3xl font-extrabold">Parlons de votre projet</h2>
+                <p class="text-gray-300 text-sm leading-relaxed">
+                    Vous souhaitez investir, collaborer ou bénéficier de l'expertise multisectorielle de MIR GROUP HOLDING ? Contactez notre équipe dès aujourd'hui.
+                </p>
+                <div class="space-y-4 pt-4">
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 rounded-xl bg-mirGold/10 flex items-center justify-center text-mirGold text-xl">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <p class="text-xs text-gray-400">Adresse Siège</p>
+                            <p class="text-sm font-semibold">Abidjan Cocody 2 Plateaux, 20m de la Pharmacie des Grâces</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 rounded-xl bg-mirGold/10 flex items-center justify-center text-mirGold text-xl">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div>
+                            <p class="text-xs text-gray-400">Téléphone</p>
+                            <p class="text-sm font-semibold">+225 07 59 05 80 25</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 rounded-xl bg-mirGold/10 flex items-center justify-center text-mirGold text-xl">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <p class="text-xs text-gray-400">Email Officiel</p>
+                            <p class="text-sm font-semibold">mirgroup.holding@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lg:col-span-7">
+                <form onsubmit="handleFormSubmit(event)" class="space-y-4">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-xs font-semibold uppercase text-gray-400 mb-1">Nom complet</label>
+                            <input type="text" required class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-mirGold transition">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold uppercase text-gray-400 mb-1">Téléphone</label>
+                            <input type="tel" required class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-mirGold transition">
+                        </div>
+                    </div>
+                    <div>
+                        <label class="block text-xs font-semibold uppercase text-gray-400 mb-1">Email</label>
+                        <input type="email" required class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-mirGold transition">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-semibold uppercase text-gray-400 mb-1">Pôle concerné</label>
+                        <select class="w-full bg-blue-950 border border-white/10 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-mirGold transition text-gray-300">
+                            <option>MIR TECHNOLOGIES</option>
+                            <option>MIR NUMÉRIQUE</option>
+                            <option>MIR FINANCE</option>
+                            <option>MIR IMMOBILIER</option>
+                            <option>MIR ÉNERGIE</option>
+                            <option>MIR GROUPE</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-xs font-semibold uppercase text-gray-400 mb-1">Votre message</label>
+                        <rows="4" class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-mirGold transition" placeholder="Décrivez votre demande..."></textarea>
+                    </div>
+                    <button type="submit" class="w-full py-4 rounded-xl bg-gradient-to-r from-mirGold to-amber-600 text-mirDark font-bold hover:opacity-90 transition shadow-xl shadow-mirGold/20">
+                        Envoyer le message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-mirDark border-t border-white/10 py-12 text-sm text-gray-400">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+            <div class="space-y-4">
+                <span class="text-white font-bold text-lg">MIR GROUP HOLDING</span>
+                <p class="text-xs">Innover • Construire • Réussir. Un héritage fort, une vision de l'avenir.</p>
+                <p class="text-xs text-mirGold font-semibold">RCCM: CI-ABJ-03-2026-B12-07394</p>
+            </div>
+            <div>
+                <p class="text-white font-semibold mb-3">Pôles d'Activités</p>
+                <ul class="space-y-2 text-xs">
+                    <li><a href="#poles" class="hover:text-mirGold transition">MIR Technologies</a></li>
+                    <li><a href="#poles" class="hover:text-mirGold transition">MIR Numérique</a></li>
+                    <li><a href="#poles" class="hover:text-mirGold transition">MIR Finance</a></li>
+                    <li><a href="#poles" class="hover:text-mirGold transition">MIR Immobilier</a></li>
+                </ul>
+            </div>
+            <div>
+                <p class="text-white font-semibold mb-3">Navigation</p>
+                <ul class="space-y-2 text-xs">
+                    <li><a href="#accueil" class="hover:text-mirGold transition">Accueil</a></li>
+                    <li><a href="#poles" class="hover:text-mirGold transition">Nos Pôles</a></li>
+                    <li><a href="#gouvernance" class="hover:text-mirGold transition">Directeur Général</a></li>
+                    <li><a href="#contact" class="hover:text-mirGold transition">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <p class="text-white font-semibold mb-3">Réseaux Sociaux</p>
+                <div class="flex gap-3">
+                    <a href="#" class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-mirGold hover:text-mirDark transition"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-mirGold hover:text-mirDark transition"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-mirGold hover:text-mirDark transition"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-t border-white/10 pt-8 text-center text-xs">
+            <p>&copy; 2026 MIR GROUP HOLDING SARL. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <!-- MODAL -->
+    <div id="poleModal" class="fixed inset-0 z-50 hidden bg-black/80 backdrop-blur-sm flex items-center justify-center p-4">
+        <div class="bg-blue-950 border border-mirGold/40 rounded-2xl max-w-lg w-full p-6 relative shadow-2xl">
+            <button onclick="closeModal()" class="absolute top-4 right-4 text-gray-400 hover:text-white text-xl"><i class="fas fa-times"></i></button>
+            <h3 id="modalTitle" class="text-2xl font-bold text-mirGold mb-3"></h3>
+            <p id="modalDesc" class="text-gray-300 text-sm mb-6"></p>
+            <a href="#contact" onclick="closeModal()" class="block text-center py-3 rounded-xl bg-mirGold text-mirDark font-bold text-sm">Prendre rendez-vous pour ce pôle</a>
+        </div>
+    </div>
+
+    <!-- JAVASCRIPT -->
+    <script>
+        // Mobile Menu Toggle
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Modal Functions
+        function openModal(poleName) {
+            const modal = document.getElementById('poleModal');
+            const title = document.getElementById('modalTitle');
+            const desc = document.getElementById('modalDesc');
+            
+            title.innerText = poleName;
+            desc.innerText = `Le pôle ${poleName} de MIR GROUP HOLDING incarne notre engagement d'excellence et d'innovation dans la stratégie globale du groupe, au service de nos partenaires et clients en Côte d'Ivoire et à l'international.`;
+            modal.classList.remove('hidden');
+        }
+
+        function closeModal() {
+            document.getElementById('poleModal').classList.add('hidden');
+        }
+
+        function handleFormSubmit(e) {
+            e.preventDefault();
+            alert('Merci ! Votre message a bien été envoyé à MIR GROUP HOLDING. Nous vous recontacterons dans les plus brefs délais.');
+            e.target.reset();
+        }
+    </script>
+</body>
+</html>
